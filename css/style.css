@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(251, 249, 246);
+}
+
+body {
+    margin: 20px;
+}
+
+
+.cajaBorde1 {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 50px;
+    min-height: 10px;
+    
+}.cajaBorde2 {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 100vh;
+    min-height: 50px;
+    
+}
+.cajaBorde3 {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 500px;
+}
+
+.cajaBorde4 {
+    border-style: solid;
+    border-color: rgb(3, 1, 1);
+    height: 100vh;
+
+}
+
+
+
+@media (min-width: 30px) and (max-width: 992px) {
+        .cajaBorde4 {
+            display: none;
+        }
+}
